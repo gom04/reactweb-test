@@ -1,0 +1,110 @@
+ 
+  .bg-blog {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+.shape {
+    width: 50%;
+    height: 80%;
+    transition: border-radius 8s ease-out;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    animation: morph 8s ease-in-out infinite both alternate;
+    position: absolute;
+    padding: -15%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+.shape2 {
+    width: 40%;
+    height: 60%;
+    transition: border-radius 1s ease-out;
+    border-radius: 10% 40% 30% 70% / 60% 30% 50% 40%;
+    animation: morph 8s ease-in-out infinite both alternate;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 30%; 
+    margin-bottom: 15%;
+    padding: -5%;
+    opacity: 0.3;
+    z-index: 5;
+  }
+  
+  
+  .bd{
+
+
+    width: 142%;
+    height: 142%;
+    position: absolute;
+    left: -21%;
+    top: -21%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+     background-size: 100%;
+    background-position: center center;
+    display: flex;
+    color: #003;
+    font-size: 5vw;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    animation: spin 12s linear infinite reverse;
+    opacity: 1;
+    z-index: 2;
+  }
+
+  .bd2{
+
+
+    width: 142%;
+    height: 142%;
+    position: absolute;
+    left: -21%;
+    top: -21%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+     background-size: 100%;
+    background-position: center center;
+    display: flex;
+    color: #003;
+    font-size: 5vw;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    animation: spin 12s linear infinite reverse;
+    opacity: 1;
+    z-index: 2;
+  }
+
+
+
+
+
+
+
+  @keyframes morph {
+    0% {border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;} 
+    100% {border-radius: 40% 60%;} 
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+
+  
+@media screen and (max-width: 480px) {
+
+
+}
