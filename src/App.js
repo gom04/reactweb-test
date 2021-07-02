@@ -7,7 +7,7 @@ function App() {
     <>
      <Header/> 
       <Animatepage/> 
-       <Content1/> 
+      <Content1/> 
     </>
   );
 }
