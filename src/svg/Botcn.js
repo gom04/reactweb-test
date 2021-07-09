@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Botcn.css";
-
+ 
 function Botcn() {
     return ( 
              <div className="containbot"> <svg
