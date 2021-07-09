@@ -6,8 +6,7 @@ export default function Animatepage() {
         <div className="bg-animate">
             <div className="container">
                 <Botcn/> 
-
-
+ 
                {/* <div className="bg-blog">
                     <div className="shape">
                         <div className="bd"></div>
