@@ -16,7 +16,7 @@ function Header() {
             <div className="container">
                 <div className="header-top"> 
                 <div className="logo-container">
-                        <a href="#">siam2 <FiBox /></a>
+                        <a href="#">fukinride</a>
                     </div>
                     <ul className={click ? "menu active" : "menu"} >
                         <li className="menu-link" onClick={closeMobileMenu}>
